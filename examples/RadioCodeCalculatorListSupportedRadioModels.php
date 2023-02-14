@@ -9,7 +9,7 @@
  * regex pattern.
  *
  * Version      : v1.00
- * PHP          : >= 7
+ * PHP          : >= 8
  * Dependencies : cURL
  * Author       : Bartosz Wójcik (support@pelock.com)
  * Project      : https://www.pelock.com/products/radio-code-calculator
