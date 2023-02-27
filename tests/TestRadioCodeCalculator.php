@@ -136,6 +136,7 @@ final class TestRadioCodeCalculator extends TestCase
 			[ RadioModels::get(RadioModels::FORD_V_SERIES), "123456", "3067"],
 			[ RadioModels::get(RadioModels::FORD_TRAVELPILOT), "1234567", "3982"],
 			[ RadioModels::get(RadioModels::FIAT_STILO_BRAVO_VISTEON), "999999", "4968"],
+			[ RadioModels::get(RadioModels::FIAT_DAIICHI), "6461", "8354"],
 			[ RadioModels::get(RadioModels::TOYOTA_ERC), "10211376ab8e0d25", "A6905892"],
 			[ RadioModels::get(RadioModels::JEEP_CHEROKEE), "TQ1AA1500E2884", "1315"],
 		];

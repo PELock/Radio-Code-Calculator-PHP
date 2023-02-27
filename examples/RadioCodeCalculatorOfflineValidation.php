@@ -8,7 +8,7 @@
  * type of car radio. This example shows how to use an extended offline
  * validation.
  *
- * Version      : v1.00
+ * Version      : v1.1.0
  * PHP          : >= 8
  * Dependencies : cURL
  * Author       : Bartosz Wójcik (support@pelock.com)

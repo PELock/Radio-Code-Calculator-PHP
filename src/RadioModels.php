@@ -6,8 +6,8 @@
  *
  * Generate radio unlocking codes for various radio players.
  *
- * Version      : v1.00
- * PHP          : >= 7
+ * Version      : v1.1.0
+ * PHP          : >= 8
  * Dependencies : requests (https://pypi.python.org/pypi/requests/)
  * Author       : Bartosz Wójcik (support@pelock.com)
  * Project      : https://www.pelock.com/products/radio-code-calculator
@@ -40,6 +40,7 @@ class RadioModels
 	const FORD_V_SERIES = [ "ford-v-series", 6, "/^([0-9]{6})$/"];
 	const FORD_TRAVELPILOT = [ "ford-travelpilot", 7, "/^([0-9]{7})$/"];
 	const FIAT_STILO_BRAVO_VISTEON = [ "fiat-stilo-bravo-visteon", 6, "/^([a-zA-Z0-9]{6})$/"];
+	const FIAT_DAIICHI = [ "fiat-daiichi", 4, "/^([0-9]{4})$/"];
 	const TOYOTA_ERC = [ "toyota-erc", 16, "/^([a-zA-Z0-9]{16})$/"];
 	const JEEP_CHEROKEE = [ "jeep-cherokee", 14, "/^([a-zA-Z0-9]{10}[0-9]{4})$/"];
 

@@ -7,7 +7,7 @@
  * In this example, we will demonstrate how to generate a code for a specific
  * type of car radio.
  *
- * Version      : v1.00
+ * Version      : v1.1.0
  * PHP          : >= 8
  * Dependencies : cURL
  * Author       : Bartosz Wójcik (support@pelock.com)

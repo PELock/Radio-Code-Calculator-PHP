@@ -6,8 +6,8 @@
  *
  * Generate radio unlocking codes for various radio players.
  *
- * Version      : v1.00
- * PHP          : >= 7
+ * Version      : v1.1.0
+ * PHP          : >= 8
  * Dependencies : requests (https://pypi.python.org/pypi/requests/)
  * Author       : Bartosz Wójcik (support@pelock.com)
  * Project      : https://www.pelock.com/products/radio-code-calculator
@@ -173,7 +173,6 @@ class RadioCodeCalculator
 
 		// POST parameters
 		curl_setopt($ch, CURLOPT_POSTFIELDS, $params_array);
-
 
 		// user agent
 		curl_setopt($ch, CURLOPT_USERAGENT, "PELock Radio Code Calculator");
