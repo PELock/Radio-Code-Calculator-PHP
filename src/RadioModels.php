@@ -6,7 +6,7 @@
  *
  * Generate radio unlocking codes for various radio players.
  *
- * Version      : v1.1.0
+ * Version      : v1.1.2
  * PHP          : >= 8
  * Dependencies : requests (https://pypi.python.org/pypi/requests/)
  * Author       : Bartosz Wójcik (support@pelock.com)
@@ -43,6 +43,7 @@ class RadioModels
 	const FIAT_DAIICHI = [ "fiat-daiichi", 4, "/^([0-9]{4})$/"];
 	const TOYOTA_ERC = [ "toyota-erc", 16, "/^([a-zA-Z0-9]{16})$/"];
 	const JEEP_CHEROKEE = [ "jeep-cherokee", 14, "/^([a-zA-Z0-9]{10}[0-9]{4})$/"];
+	const NISSAN_GLOVE_BOX = [ "nissan-glove-box", 12, "/^([a-zA-Z0-9]{12})$/"];
 
 	/**
 	 * Create RadioModel instance from the provided template
