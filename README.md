@@ -101,7 +101,7 @@ This example demonstrates code generation for a selected radio model. All input 
  * In this example, we will demonstrate how to generate a code for a specific
  * type of car radio.
  *
- * Version      : v1.1.0
+ * Version      : v1.1.2
  * PHP          : >= 7
  * Dependencies : cURL
  * Author       : Bartosz Wójcik (support@pelock.com)
@@ -166,7 +166,7 @@ Validation of this data is done on the server side. However, to make things more
  * type of car radio. This example shows how to use an extended offline
  * validation.
  *
- * Version      : v1.1.0
+ * Version      : v1.1.2
  * PHP          : >= 7
  * Dependencies : cURL
  * Author       : Bartosz Wójcik (support@pelock.com)
@@ -276,7 +276,7 @@ If you would like to download information about all supported radio models and t
  * parameters like name, maximum length of the radio serial number and its
  * regex pattern.
  *
- * Version      : v1.1.0
+ * Version      : v1.1.2
  * PHP          : >= 7
  * Dependencies : cURL
  * Author       : Bartosz Wójcik (support@pelock.com)
@@ -345,7 +345,7 @@ You can download the parameters of the selected calculator.
  * In this example, we will demonstrate how to get information about the
  * specific radio calculator and its parameters (max. length & regex pattern).
  *
- * Version      : v1.1.0
+ * Version      : v1.1.2
  * PHP          : >= 7
  * Dependencies : cURL
  * Author       : Bartosz Wójcik (support@pelock.com)
@@ -408,7 +408,7 @@ By checking the activation key status, we will get information about the license
  *
  * In this example we will verify our activation key status.
  *
- * Version      : v1.1.0
+ * Version      : v1.1.2
  * PHP          : >= 7
  * Dependencies : cURL
  * Author       : Bartosz Wójcik (support@pelock.com)
