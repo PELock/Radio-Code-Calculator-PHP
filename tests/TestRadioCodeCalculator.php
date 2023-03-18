@@ -140,6 +140,7 @@ final class TestRadioCodeCalculator extends TestCase
 			[ RadioModels::get(RadioModels::TOYOTA_ERC), "10211376ab8e0d25", "A6905892"],
 			[ RadioModels::get(RadioModels::JEEP_CHEROKEE), "TQ1AA1500E2884", "1315"],
 			[ RadioModels::get(RadioModels::NISSAN_GLOVE_BOX), "D4CDDC568498", "55B7AB0BAB6F"],
+			[ RadioModels::get(RadioModels::ECLIPSE_ESN), "7D4046", "15E0ED"],
 		];
 
 		foreach ($codes as $params)
