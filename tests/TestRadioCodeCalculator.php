@@ -10,7 +10,7 @@
  *
  * ./phpunit --verbose /path/radio-code-calculator/tests/TestRadioCodeCalculator.php
  *
- * Version      : v1.00
+ * Version      : v1.1.4
  * PHP          : >= 7
  * Dependencies : cURL, PHPUnit
  * Author       : Bartosz Wójcik (support@pelock.com);
@@ -141,6 +141,7 @@ final class TestRadioCodeCalculator extends TestCase
 			[ RadioModels::get(RadioModels::JEEP_CHEROKEE), "TQ1AA1500E2884", "1315"],
 			[ RadioModels::get(RadioModels::NISSAN_GLOVE_BOX), "D4CDDC568498", "55B7AB0BAB6F"],
 			[ RadioModels::get(RadioModels::ECLIPSE_ESN), "7D4046", "15E0ED"],
+			[ RadioModels::get(RadioModels::JAGUAR_ALPINE), "99999", "6125"],
 		];
 
 		foreach ($codes as $params)

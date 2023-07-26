@@ -6,7 +6,7 @@
  *
  * In this example we will verify our activation key status.
  *
- * Version      : v1.1.3
+ * Version      : v1.1.4
  * PHP          : >= 7
  * Dependencies : cURL
  * Author       : Bartosz Wójcik (support@pelock.com)
