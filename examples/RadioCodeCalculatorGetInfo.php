@@ -7,7 +7,7 @@
  * In this example, we will demonstrate how to get information about the
  * specific radio calculator and its parameters (max. length & regex pattern).
  *
- * Version      : v1.1.4
+ * Version      : v1.1.5
  * PHP          : >= 8
  * Dependencies : cURL
  * Author       : Bartosz Wójcik (support@pelock.com)
@@ -15,7 +15,7 @@
  * Homepage     : https://www.pelock.com
  *
  * @link https://www.pelock.com/products/radio-code-calculator
- * @copyright Copyright (c) 2021-2023 PELock LLC
+ * @copyright Copyright (c) 2021-2024 PELock LLC
  * @license Apache-2.0
  *
 /*****************************************************************************/

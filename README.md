@@ -29,6 +29,7 @@ Individual calculators are available on our site as a paid service for end custo
 * [Chrysler Panasonic TM9](https://www.pelock.com/products/chrysler-panasonic-tm9-car-radio-code-calculator-generator)
 * [Fiat Stilo & Bravo Visteon](https://www.pelock.com/products/fiat-stilo-bravo-visteon-radio-code-calculator-generator)
 * [Fiat DAIICHI MOPAR](https://www.pelock.com/products/fiat-daiichi-radio-code-calculator-generator)
+* [Fiat Continental 250 & 500 VP1/VP2](https://www.pelock.com/products/fiat-250-500-vp1-vp2-radio-code-calculator-generator)  
 * [Nissan Glove Box Immobiliser PIN](https://www.pelock.com/products/nissan-glove-box-pin-code-calculator)
 * [Eclipse ESN Unlock Code Calculator](https://www.pelock.com/products/eclipse-esn-unlock-code-calculator)
 * [Jaguar Alpine](https://www.pelock.com/products/jaguar-alpine-car-radio-unlock-code-calculator)
@@ -103,7 +104,7 @@ This example demonstrates code generation for a selected radio model. All input 
  * In this example, we will demonstrate how to generate a code for a specific
  * type of car radio.
  *
- * Version      : v1.1.4
+ * Version      : v1.1.5
  * PHP          : >= 7
  * Dependencies : cURL
  * Author       : Bartosz Wójcik (support@pelock.com)
@@ -111,7 +112,7 @@ This example demonstrates code generation for a selected radio model. All input 
  * Homepage     : https://www.pelock.com
  *
  * @link https://www.pelock.com/products/radio-code-calculator
- * @copyright Copyright (c) 2021-2023 PELock LLC
+ * @copyright Copyright (c) 2021-2024 PELock LLC
  * @license Apache-2.0
  *
 /*****************************************************************************/
@@ -168,7 +169,7 @@ Validation of this data is done on the server side. However, to make things more
  * type of car radio. This example shows how to use an extended offline
  * validation.
  *
- * Version      : v1.1.4
+ * Version      : v1.1.5
  * PHP          : >= 7
  * Dependencies : cURL
  * Author       : Bartosz Wójcik (support@pelock.com)
@@ -176,7 +177,7 @@ Validation of this data is done on the server side. However, to make things more
  * Homepage     : https://www.pelock.com
  *
  * @link https://www.pelock.com/products/radio-code-calculator
- * @copyright Copyright (c) 2021-2023 PELock LLC
+ * @copyright Copyright (c) 2021-2024 PELock LLC
  * @license Apache-2.0
  *
 /*****************************************************************************/
@@ -278,7 +279,7 @@ If you would like to download information about all supported radio models and t
  * parameters like name, maximum length of the radio serial number and its
  * regex pattern.
  *
- * Version      : v1.1.4
+ * Version      : v1.1.5
  * PHP          : >= 7
  * Dependencies : cURL
  * Author       : Bartosz Wójcik (support@pelock.com)
@@ -286,7 +287,7 @@ If you would like to download information about all supported radio models and t
  * Homepage     : https://www.pelock.com
  *
  * @link https://www.pelock.com/products/radio-code-calculator
- * @copyright Copyright (c) 2021-2023 PELock LLC
+ * @copyright Copyright (c) 2021-2024 PELock LLC
  * @license Apache-2.0
  *
 /*****************************************************************************/
@@ -347,7 +348,7 @@ You can download the parameters of the selected calculator.
  * In this example, we will demonstrate how to get information about the
  * specific radio calculator and its parameters (max. length & regex pattern).
  *
- * Version      : v1.1.4
+ * Version      : v1.1.5
  * PHP          : >= 7
  * Dependencies : cURL
  * Author       : Bartosz Wójcik (support@pelock.com)
@@ -355,7 +356,7 @@ You can download the parameters of the selected calculator.
  * Homepage     : https://www.pelock.com
  *
  * @link https://www.pelock.com/products/radio-code-calculator
- * @copyright Copyright (c) 2021-2023 PELock LLC
+ * @copyright Copyright (c) 2021-2024 PELock LLC
  * @license Apache-2.0
  *
 /*****************************************************************************/
@@ -410,7 +411,7 @@ By checking the activation key status, we will get information about the license
  *
  * In this example we will verify our activation key status.
  *
- * Version      : v1.1.4
+ * Version      : v1.1.5
  * PHP          : >= 7
  * Dependencies : cURL
  * Author       : Bartosz Wójcik (support@pelock.com)
@@ -418,7 +419,7 @@ By checking the activation key status, we will get information about the license
  * Homepage     : https://www.pelock.com
  *
  * @link https://www.pelock.com/products/radio-code-calculator
- * @copyright Copyright (c) 2021-2023 PELock LLC
+ * @copyright Copyright (c) 2021-2024 PELock LLC
  * @license Apache-2.0
  *
 /*****************************************************************************/

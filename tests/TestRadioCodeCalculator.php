@@ -10,7 +10,7 @@
  *
  * ./phpunit --verbose /path/radio-code-calculator/tests/TestRadioCodeCalculator.php
  *
- * Version      : v1.1.4
+ * Version      : v1.1.5
  * PHP          : >= 7
  * Dependencies : cURL, PHPUnit
  * Author       : Bartosz Wójcik (support@pelock.com);
@@ -18,7 +18,7 @@
  * Homepage     : https://www.pelock.com
  *
  * @link https://www.pelock.com/products/radio-code-calculator
- * @copyright Copyright (c) 2021-2023 PELock LLC
+ * @copyright Copyright (c) 2021-2024 PELock LLC
  * @license Apache-2.0
  *
 /*****************************************************************************/
@@ -137,6 +137,7 @@ final class TestRadioCodeCalculator extends TestCase
 			[ RadioModels::get(RadioModels::FORD_TRAVELPILOT), "1234567", "3982"],
 			[ RadioModels::get(RadioModels::FIAT_STILO_BRAVO_VISTEON), "999999", "4968"],
 			[ RadioModels::get(RadioModels::FIAT_DAIICHI), "6461", "8354"],
+			[ RadioModels::get(RadioModels::FIAT_VP), "2063", "1341"],
 			[ RadioModels::get(RadioModels::TOYOTA_ERC), "10211376ab8e0d25", "A6905892"],
 			[ RadioModels::get(RadioModels::JEEP_CHEROKEE), "TQ1AA1500E2884", "1315"],
 			[ RadioModels::get(RadioModels::NISSAN_GLOVE_BOX), "D4CDDC568498", "55B7AB0BAB6F"],
