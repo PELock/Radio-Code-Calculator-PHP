@@ -8,7 +8,7 @@
  * parameters like name, maximum length of the radio serial number and its
  * regex pattern.
  *
- * Version      : v1.1.5
+ * Version      : v1.1.6
  * PHP          : >= 8
  * Dependencies : cURL
  * Author       : Bartosz Wójcik (support@pelock.com)
